@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gestionar">
+
+    <TextView
+        android:id="@+id/tvnmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="41dp"
+        android:text="Nombre" />
+
+    <TextView
+        android:id="@+id/tvcnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="139dp"
+        android:text="Continente" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="180dp" />
+
+    <TextView
+        android:id="@+id/tvpais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="228dp"
+        android:text="Pais" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="267dp" />
+
+    <EditText
+        android:id="@+id/etnmb"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="69dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvpeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="31dp"
+        android:layout_y="312dp"
+        android:text="Peso" />
+
+    <EditText
+        android:id="@+id/etpeso"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="353dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="455dp"
+        android:onClick="Insertar"
+        android:text="INSERTAR" />
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="451dp"
+        android:onClick="Consultar"
+        android:text="CONSULTAR" />
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="528dp"
+        android:onClick="Modificar"
+        android:text="MODIFICAR" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="182dp"
+        android:layout_y="527dp"
+        android:onClick="Eliminar"
+        android:text="ELIMINAR" />
+
+    <TextView
+        android:id="@+id/tvPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="205dp"
+        android:layout_y="314dp"
+        android:text="Precio" />
+
+    <EditText
+        android:id="@+id/etPrecio"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="350dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="40dp"
+        android:text="Id paquete" />
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="72dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</AbsoluteLayout>
